@@ -17,12 +17,22 @@ import {
   docker,
   meta,
   starbucks,
+  Prwire360,
+  Matic,
   tesla,
-  shopify,
   carrent,
   jobit,
   tripguide,
   threejs,
+  Defy,
+  kube,
+  aws,
+  ethereum,
+  solana,
+  GraphQL,
+  Golang,
+  sql,
+  TF,
 } from "../assets";
 
 export const navLinks = [
@@ -42,19 +52,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Web3 Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "DevOps Automation",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "AI SaaS Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Project Manager",
     icon: creator,
   },
 ];
@@ -111,27 +121,28 @@ const technologies = [
   {
     name: "docker",
     icon: docker,
-  },
+  }
+
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Data Analyst",
+    company_name: "Defy Insurance Agency",
+    icon: Defy,
     iconBg: "#383E56",
     date: "March 2020 - April 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developed customized CRM using python and integrated CRM with Oddo and Zoho platforms. Created   pipelines to automate the complete process from lead generation to lead closing. ",
+      "Data scraping using python (BS4, Selenium and Scarpy) on static and dynamic websites to scrap and transform quality data for B2B leads.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+
     ],
   },
   {
     title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    company_name: "Matic Academy",
+    icon: Matic,
     iconBg: "#E6DEDD",
     date: "Jan 2021 - Feb 2022",
     points: [
@@ -142,22 +153,9 @@ const experiences = [
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
     title: "Full stack Developer",
     company_name: "Meta",
-    icon: meta,
+    icon: Prwire360,
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
     points: [

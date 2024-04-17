@@ -1,7 +1,7 @@
 import React from "react";
 import Tilt from "react-tilt";
 import { motion } from "framer-motion";
-
+import { useRef } from "react"; // Remove the second import statement for React
 import { styles } from "../styles";
 import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
@@ -64,3 +64,5 @@ const About = () => {
 };
 
 export default SectionWrapper(About, "about");
+
+//last commits in this reopo
